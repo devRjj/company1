@@ -5,7 +5,7 @@ pipeline {
 
         stage("Checkout Q1") {
             steps {
-                dir("q1") {
+                dir("Q1") {
                     git url: 'https://github.com/swapnilpadwal311/company.git', branch: '2026Q1'
                 }
             }
@@ -21,7 +21,7 @@ pipeline {
 
         stage("Checkout Q2") {
             steps {
-                dir("q2") {
+                dir("Q2") {
                     git url: 'https://github.com/swapnilpadwal311/company.git', branch: '2026Q2'
                 }
             }
@@ -37,7 +37,7 @@ pipeline {
 
         stage("Checkout Q3") {
             steps {
-                dir("q3") {
+                dir("Q3") {
                     git url: 'https://github.com/swapnilpadwal311/company.git', branch: '2026Q3'
                 }
             }
